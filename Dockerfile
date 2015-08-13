@@ -5,16 +5,16 @@ MAINTAINER Maik Hummel <m@ikhummel.com>
 ENV NODEJS_VERSION 0.12.7
 
 # Set Environment Variables
-ENV PATH $PATH:/opt/node/bin
+ENV PATH $PATH:/opt/nodejs/bin
 
 WORKDIR "/opt"
 
 # Download defined Node.js Version
-RUN curl -O https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.gz
+RUN curl -O https://nodejs.org/dist/v${NODEJS_VERSION}/node-v${NODEJS_VERSION}-linux-x64.tar.gz
 
 # Extract and move to /opt
-RUN tar xf node-v${NODE_VERSION}-linux-x64.tar.gz
-RUN mv node-v${NODE_VERSION}-linux-x64 /opt/nodejs
+RUN tar xf node-v${NODEJS_VERSION}-linux-x64.tar.gz
+RUN mv node-v${NODEJS_VERSION}-linux-x64 /opt/nodejs
 
 # Clean up
-RUN rm node-v${NODE_VERSION}-linux-x64.tar.gz
+RUN rm node-v${NODEJS_VERSION}-linux-x64.tar.gz
