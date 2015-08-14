@@ -18,3 +18,4 @@ RUN mv node-v${NODEJS_VERSION}-linux-x64 /opt/nodejs
 
 # Clean up
 RUN rm node-v${NODEJS_VERSION}-linux-x64.tar.gz
+RUN apt-get clean
