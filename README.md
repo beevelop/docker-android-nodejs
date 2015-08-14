@@ -2,6 +2,7 @@
 
 # Android with Node.js based on [beevelop/android](https://github.com/beevelop/docker-android)
 - Node.js 0.12.7
+- npm 2.11.3
 
 ## Disclaimer
 > This is experimental and might break from time to time. Use at your own risk!
