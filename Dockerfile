@@ -2,7 +2,7 @@ FROM beevelop/android
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
 # Build-Variables
-ENV NODEJS_VERSION 4.1.1
+ENV NODEJS_VERSION 4.1.2
 
 # Set Environment Variables
 ENV PATH $PATH:/opt/nodejs/bin
