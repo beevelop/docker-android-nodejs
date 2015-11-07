@@ -1,6 +1,27 @@
-[![](https://badge.imagelayers.io/beevelop/android-nodejs:latest.svg)](https://imagelayers.io/?images=beevelop/android-nodejs:latest 'Get your own badge on imagelayers.io')
+[![Travis](https://img.shields.io/travis/beevelop/docker-android-nodejs.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-android-nodejs)
+[![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/android-nodejs.svg?style=flat-square)](https://links.beevelop.com/d-android-nodejs)
+[![ImageLayer](https://badge.imagelayers.io/beevelop/android-nodejs:latest.svg)](https://imagelayers.io/?images=beevelop/android-nodejs:latest)
+[![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
-# Android with the latest Node.js based on [beevelop/android](https://github.com/beevelop/docker-android)
+# Android 6 with Node.js 5.0.0 (npm 3.3.6)
+### based on [beevelop/android](https://github.com/beevelop/docker-android)
+----
+### Pull from Docker Hub
+```
+docker pull beevelop/android-nodejs:latest
+```
 
-## Disclaimer
-> This is experimental and might break from time to time. Use at your own risk!
+### Build from GitHub
+```
+docker build -t beevelop/android-nodejs github.com/beevelop/docker-android-nodejs
+```
+
+### Run image
+```
+docker run -it beevelop/android-nodejs bash
+```
+
+### Use as base image
+```Dockerfile
+FROM beevelop/android-nodejs:latest
+```
