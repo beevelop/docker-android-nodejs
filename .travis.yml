@@ -1,0 +1,8 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t beevelop/android-nodejs .
+  - docker run beevelop/android-nodejs /bin/sh -c "android list && node -v && npm -v"
