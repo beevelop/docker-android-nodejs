@@ -2,7 +2,7 @@ FROM beevelop/android
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
 # Build-Variables
-ENV NODEJS_VERSION 5.4.1
+ENV NODEJS_VERSION 5.5.0
 
 # Set PATH variable
 ENV PATH $PATH:/opt/node/bin
