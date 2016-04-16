@@ -1,4 +1,4 @@
-FROM beevelop/android
+FROM beevelop/android:gapis
 
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
