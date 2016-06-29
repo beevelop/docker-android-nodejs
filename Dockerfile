@@ -1,7 +1,7 @@
 FROM beevelop/android
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
-ENV NODEJS_VERSION=4.3.2 \
+ENV NODEJS_VERSION=4.4.7 \
     PATH=$PATH:/opt/nodejs/bin
 
 WORKDIR "/opt"
