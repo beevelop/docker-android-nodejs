@@ -2,11 +2,10 @@
 [![Pulls](https://shields.beevelop.com/docker/pulls/beevelop/nodejs.svg?style=flat-square)](https://links.beevelop.com/d-nodejs)
 [![Size](https://shields.beevelop.com/docker/image/size/beevelop/nodejs/latest.svg?style=flat-square)](https://links.beevelop.com/d-nodejs)
 [![Layers](https://shields.beevelop.com/docker/image/layers/beevelop/nodejs/latest.svg?style=flat-square)](https://links.beevelop.com/d-nodejs)
-[![Gemnasium](https://shields.beevelop.com/gemnasium/beevelop/docker-nodejs.svg?style=flat-square)](https://gemnasium.com/beevelop/docker-nodejs)
 ![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
-# Android 6 with the latest Node.js and npm
+# Latest Android with Node.js `v8` and npm
 ### based on [beevelop/android](https://github.com/beevelop/docker-android)
 ----
 ### Pull from Docker Hub
