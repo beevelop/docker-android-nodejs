@@ -3,7 +3,7 @@
 [![ImageLayer](https://badge.imagelayers.io/beevelop/android-nodejs:latest.svg)](https://imagelayers.io/?images=beevelop/android-nodejs:latest)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
-# Android 6 with the latest Node.js and npm
+# Latest Android with the Node.js `v6` and npm
 ### based on [beevelop/android](https://github.com/beevelop/docker-android)
 ----
 ### Pull from Docker Hub
