@@ -2,7 +2,7 @@ FROM beevelop/android
 
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
-ENV NODEJS_VERSION=9.3.0 \
+ENV NODEJS_VERSION=9.4.0 \
     PATH=$PATH:/opt/node/bin
 
 WORKDIR "/opt/node"
