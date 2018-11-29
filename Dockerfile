@@ -1,8 +1,6 @@
 FROM beevelop/android
 
-MAINTAINER Maik Hummel <m@ikhummel.com>
-
-ENV NODEJS_VERSION=6.14.4 \
+ENV NODEJS_VERSION=6.15.0 \
     PATH=$PATH:/opt/node/bin
 
 WORKDIR "/opt/node"
