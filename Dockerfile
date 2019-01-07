@@ -1,6 +1,6 @@
 FROM beevelop/android
 
-ENV NODEJS_VERSION=10.14.2 \
+ENV NODEJS_VERSION=10.15.0 \
     PATH=$PATH:/opt/node/bin
 
 WORKDIR "/opt/node"
