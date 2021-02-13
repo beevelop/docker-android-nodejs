@@ -1,8 +1,0 @@
-sudo: required
-
-services:
-  - docker
-
-script:
-  - docker build -t bee .
-  - docker run bee /bin/sh -c "android list && node -v && npm -v"
