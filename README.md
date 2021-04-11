@@ -1,8 +1,12 @@
-[![Pulls](https://shields.beevelop.com/docker/pulls/beevelop/nodejs.svg?style=flat-square)](https://links.beevelop.com/d-nodejs)
-[![Size](https://shields.beevelop.com/docker/image/size/beevelop/nodejs/latest.svg?style=flat-square)](https://links.beevelop.com/d-nodejs)
-[![Layers](https://shields.beevelop.com/docker/image/layers/beevelop/nodejs/latest.svg?style=flat-square)](https://links.beevelop.com/d-nodejs)
-![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
-[![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/beevelop/docker-android-nodejs/Docker%20Image?style=for-the-badge)
+![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/android-nodejs.svg?style=for-the-badge)
+![Docker Stars](https://img.shields.io/docker/stars/beevelop/android-nodejs?style=for-the-badge)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/beevelop/android-nodejs/latest?style=for-the-badge)
+![License](https://img.shields.io/github/license/beevelop/docker-android-nodejs?style=for-the-badge)
+[![GitHub release](https://img.shields.io/github/release/beevelop/docker-android-nodejs.svg?style=for-the-badge)](https://github.com/beevelop/docker-android-nodejs/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/beevelop/docker-android-nodejs?style=for-the-badge)
+![CalVer](https://img.shields.io/badge/CalVer-YYYY.MM.MICRO-22bfda.svg?style=for-the-badge)
+[![Beevelop](https://img.shields.io/badge/-%20Made%20with%20%F0%9F%8D%AF%20by%20%F0%9F%90%9Dvelop-blue.svg?style=for-the-badge)](https://beevelop.com)
 
 # Android 11 with Node.js `v14` and npm / yarn
 
