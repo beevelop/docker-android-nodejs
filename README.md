@@ -11,33 +11,34 @@
 # Android 11 with Node.js `v14` and npm / yarn
 
 ### based on [beevelop/android](https://github.com/beevelop/docker-android)
+- Java 8 (OpenJDK 1.8.0_282)
+- Gradle 4.4.1 (Groovy: 2.4.16)
+- Apache Maven 3.6.3
+- Ant 1.10.7
 
----
+### Pull, build or run this image
+```bash
+# pull the most recent tag / release
+docker pull beevelop/android-nodejs:v2021.06.1
 
-### Pull from Docker Hub
+# or run the image interactively
+docker run --rm --name beevelop -it beevelop/android-nodejs:v2021.06.1 bash
 
-```
-docker pull beevelop/android-nodejs:latest
-```
-
-### Build from GitHub
-
-```
-docker build -t beevelop/android-nodejs github.com/beevelop/docker-android-nodejs
-```
-
-### Run image
-
-```
-docker run -it beevelop/android-nodejs bash
+# or build the image from GitHub
+docker build -t beevelop/android-nodejs github.com/beevelop/docker-base
 ```
 
-### Use as base image
-
+### Or use as base image
 ```Dockerfile
-FROM beevelop/android-nodejs:latest
+FROM beevelop/android-nodejs:v2021.06.1
 ```
 
 ---
+
+![Beevelop's Docker Image Hierarchy](https://gist.githubusercontent.com/beevelop/b0cddab7209a683c77560d06ff00bc8e/raw/15429ee1d02e2c4dc019b760ca8c7ceff5911b82/hierarchy.png)
+
+---
+
+### Use tags where possible, because...
 
 ![One does not simply use latest](https://i.imgflip.com/1fgwxr.jpg)
