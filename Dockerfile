@@ -12,4 +12,5 @@ RUN apt-get update && apt-get install -y curl gnupg2 lsb-release && \
     npm install -g yarn && \
     yarn -v && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
+    apt-get install ca-certificates
