@@ -12,19 +12,21 @@
 
 ### based on [beevelop/android](https://github.com/beevelop/docker-android)
 
-- Java 8 (OpenJDK 1.8.0_282)
-- Gradle 4.4.1 (Groovy: 2.4.16)
-- Apache Maven 3.6.3
-- Ant 1.10.7
+- Java `11.0.17`
+- Gradle `4.4.1` (Groovy: `2.4.17`)
+- Apache Maven `3.6.3`
+- Ant `1.10.7`
+- Node.js `v16.19.0`
+- npm `8.19.3`
 
 ### Pull, build or run this image
 
 ```bash
 # pull the most recent tag / release
-docker pull beevelop/android-nodejs:v2021.06.1
+docker pull beevelop/android-nodejs:v2023.01.1
 
 # or run the image interactively
-docker run --rm --name beevelop -it beevelop/android-nodejs:v2021.06.1 bash
+docker run --rm --name beevelop -it beevelop/android-nodejs:v2023.01.1 bash
 
 # or build the image from GitHub
 docker build -t beevelop/android-nodejs github.com/beevelop/docker-base
