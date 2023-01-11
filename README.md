@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/beevelop/docker-android-nodejs/Docker%20Image?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/beevelop/docker-android-nodejs/docker.yml?style=for-the-badge)
 ![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/android-nodejs.svg?style=for-the-badge)
 ![Docker Stars](https://img.shields.io/docker/stars/beevelop/android-nodejs?style=for-the-badge)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/beevelop/android-nodejs/latest?style=for-the-badge)
