@@ -8,15 +8,17 @@
 ![CalVer](https://img.shields.io/badge/CalVer-YYYY.MM.MICRO-22bfda.svg?style=for-the-badge)
 [![Beevelop](https://img.shields.io/badge/-%20Made%20with%20%F0%9F%8D%AF%20by%20%F0%9F%90%9Dvelop-blue.svg?style=for-the-badge)](https://beevelop.com)
 
-# Android 11 with Node.js `v14` and npm / yarn
+# Android 13 with Node.js `v16` and npm / yarn
 
 ### based on [beevelop/android](https://github.com/beevelop/docker-android)
+
 - Java 8 (OpenJDK 1.8.0_282)
 - Gradle 4.4.1 (Groovy: 2.4.16)
 - Apache Maven 3.6.3
 - Ant 1.10.7
 
 ### Pull, build or run this image
+
 ```bash
 # pull the most recent tag / release
 docker pull beevelop/android-nodejs:v2021.06.1
@@ -28,9 +30,10 @@ docker run --rm --name beevelop -it beevelop/android-nodejs:v2021.06.1 bash
 docker build -t beevelop/android-nodejs github.com/beevelop/docker-base
 ```
 
-### Or use as base image
+### Or use it as a base image
+
 ```Dockerfile
-FROM beevelop/android-nodejs:v2021.06.1
+FROM beevelop/android-nodejs:v2023.01.1
 ```
 
 ---
@@ -39,6 +42,6 @@ FROM beevelop/android-nodejs:v2021.06.1
 
 ---
 
-### Use tags where possible, because...
+### Use tags where possible, because
 
 ![One does not simply use latest](https://i.imgflip.com/1fgwxr.jpg)
