@@ -8,7 +8,7 @@
 ![CalVer](https://img.shields.io/badge/CalVer-YYYY.MM.MICRO-22bfda.svg?style=for-the-badge)
 [![Beevelop](https://img.shields.io/badge/-%20Made%20with%20%F0%9F%8D%AF%20by%20%F0%9F%90%9Dvelop-blue.svg?style=for-the-badge)](https://beevelop.com)
 
-# Android 13 with Node.js `v16` and npm / yarn
+# Android 13 with Node.js `v18` and npm / yarn
 
 ### based on [beevelop/android](https://github.com/beevelop/docker-android)
 
@@ -16,17 +16,17 @@
 - Gradle `4.4.1` (Groovy: `2.4.17`)
 - Apache Maven `3.6.3`
 - Ant `1.10.7`
-- Node.js `v16.19.0`
-- npm `8.19.3`
+- Node.js `v18.17.0`
+- npm `9.6.7`
 
 ### Pull, build or run this image
 
 ```bash
 # pull the most recent tag / release
-docker pull beevelop/android-nodejs:v2023.01.1
+docker pull beevelop/android-nodejs:v2023.10.1
 
 # or run the image interactively
-docker run --rm --name beevelop -it beevelop/android-nodejs:v2023.01.1 bash
+docker run --rm --name beevelop -it beevelop/android-nodejs:v2023.10.1 bash
 
 # or build the image from GitHub
 docker build -t beevelop/android-nodejs github.com/beevelop/docker-base
@@ -35,7 +35,7 @@ docker build -t beevelop/android-nodejs github.com/beevelop/docker-base
 ### Or use it as a base image
 
 ```Dockerfile
-FROM beevelop/android-nodejs:v2023.01.1
+FROM beevelop/android-nodejs:v2023.10.1
 ```
 
 ---
