@@ -12,12 +12,12 @@
 
 ### based on [beevelop/android](https://github.com/beevelop/docker-android)
 
-- Java `11.0.17`
-- Gradle `4.4.1` (Groovy: `2.4.17`)
-- Apache Maven `3.6.3`
-- Ant `1.10.7`
-- Node.js `v18.17.0`
-- npm `9.6.7`
+- Java `17.0.16`
+- Gradle `8.12` (Groovy: `3.0.22`)
+- Apache Maven `3.8.7`
+- Ant `1.10.15`
+- Node.js `v22.18.0`
+- npm `10.9.3`
 
 ### Pull, build or run this image
 
