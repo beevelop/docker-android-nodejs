@@ -22,8 +22,8 @@ LABEL maintainer="hi@beevelop.com" \
 RUN apt-get update && apt-get install -y curl ca-certificates && \
     curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && \
     apt-get install -y nodejs && \
-    node -v && npm -v && \
     npm install -g yarn && \
-    yarn -v && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
+    node -v && npm -v && yarn -v && \
+    mvn -v && gradle -v && java -version && ant -version
