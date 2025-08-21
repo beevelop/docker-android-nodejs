@@ -23,10 +23,10 @@
 
 ```bash
 # pull the most recent tag / release
-docker pull beevelop/android-nodejs:v2025.08.1
+docker pull beevelop/android-nodejs:v2025.08.2
 
 # or run the image interactively
-docker run --rm --name beevelop -it beevelop/android-nodejs:v2025.08.1 bash
+docker run --rm --name beevelop -it beevelop/android-nodejs:v2025.08.2 bash
 
 # or build the image from GitHub
 docker build -t beevelop/android-nodejs github.com/beevelop/docker-android-nodejs
@@ -35,7 +35,7 @@ docker build -t beevelop/android-nodejs github.com/beevelop/docker-android-nodej
 ### Or use it as a base image
 
 ```Dockerfile
-FROM beevelop/android-nodejs:v2025.08.1
+FROM beevelop/android-nodejs:v2025.08.2
 ```
 
 ---
