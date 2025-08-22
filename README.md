@@ -15,9 +15,9 @@
 - Java `17.0.16`
 - Gradle `8.12` (Groovy: `3.0.22`)
 - Apache Maven `3.8.7`
-- Ant `1.10.15`
+- Ant `1.10.14`
 - Node.js `v22.18.0`
-- npm `10.9.3`
+- npm `11.5.2`
 
 ### Pull, build or run this image
 
