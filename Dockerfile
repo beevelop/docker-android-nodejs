@@ -18,10 +18,11 @@ LABEL maintainer="hi@beevelop.com" \
       org.opencontainers.image.documentation="https://github.com/beevelop/docker-android-nodejs/blob/latest/README.md" \
       org.opencontainers.image.source="https://github.com/beevelop/docker-android-nodejs.git"
 
-# Install Node.js using NodeSource repository
-RUN apt-get update && apt-get install -y curl ca-certificates && \
-    curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && \
-    apt-get install -y nodejs && \
+# Install Node.js 22 with compatible npm using official Node.js binaries
+ENV NODE_VERSION=22.18.0
+RUN apt-get update && apt-get install -y curl ca-certificates xz-utils && \
+    curl -fsSL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz | tar -xJ -C /usr/local --strip-components=1 && \
+    npm install -g npm@latest && \
     npm install -g yarn && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
